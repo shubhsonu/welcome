@@ -1,0 +1,63 @@
+[33mcommit 7b8b5e52f807d7ff95d59a3abe6a6e2b3669eab6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: root <root@ip-172-31-36-196.ap-south-1.compute.internal>
+Date:   Mon Dec 5 05:42:23 2022 +0000
+
+    jenkins file
+
+[1mdiff --git a/.bash_logout b/.bash_logout[m
+[1mnew file mode 100644[m
+[1mindex 0000000..af7c6fd[m
+[1m--- /dev/null[m
+[1m+++ b/.bash_logout[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m# ~/.bash_logout[m
+[32m+[m
+[1mdiff --git a/.bash_profile b/.bash_profile[m
+[1mnew file mode 100644[m
+[1mindex 0000000..031ab84[m
+[1m--- /dev/null[m
+[1m+++ b/.bash_profile[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m# .bash_profile[m
+[32m+[m
+[32m+[m[32m# Get the aliases and functions[m
+[32m+[m[32mif [ -f ~/.bashrc ]; then[m
+[32m+[m	[32m. ~/.bashrc[m
+[32m+[m[32mfi[m
+[32m+[m
+[32m+[m[32m# User specific environment and startup programs[m
+[32m+[m
+[32m+[m[32mPATH=$PATH:$HOME/.local/bin:$HOME/bin[m
+[32m+[m
+[32m+[m[32mexport PATH[m
+[1mdiff --git a/.bashrc b/.bashrc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1130779[m
+[1m--- /dev/null[m
+[1m+++ b/.bashrc[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m# .bashrc[m
+[32m+[m
+[32m+[m[32m# Source global definitions[m
+[32m+[m[32mif [ -f /etc/bashrc ]; then[m
+[32m+[m	[32m. /etc/bashrc[m
+[32m+[m[32mfi[m
+[32m+[m
+[32m+[m[32m# Uncomment the following line if you don't like systemctl's auto-paging feature:[m
+[32m+[m[32m# export SYSTEMD_PAGER=[m
+[32m+[m
+[32m+[m[32m# User specific aliases and functions[m
+[1mdiff --git a/.ssh/authorized_keys b/.ssh/authorized_keys[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c5df6a9[m
+[1m--- /dev/null[m
+[1m+++ b/.ssh/authorized_keys[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCMPD3w3F2CX/tyWWoZH05qVauyLhm8LS8pg2K4zla6NmNXjdy59/94o3iicXnmZy3nvVIDAPAQkLb0itk1/nnE6ju9xhuJRmEvjz6FyPTpIfI0P2fD6jNf3JGG3sKJDib2oedLGwh7A6C/9NEZdTiXgk09ePuujl71N31QL5zBWhzcqufZRq+C0+FkquBPr0OamKp7Friv9Xipr3VhE/xTO+bvOyeHYHqrrUiyL/EuAAHqhKzDBxJFgpCRd/p8uLM5d3GF2914GfRj5izMTPc9nZW3Lnu4GpjBsuZLbfg2f5K0sAvwRloePlZsOcYSmlkxq9NqeAlyyKhzxMsOnHd/ mumbai[m
+[1mdiff --git a/filejenkins b/filejenkins[m
+[1mnew file mode 100644[m
+[1mindex 0000000..69d81ad[m
+[1m--- /dev/null[m
+[1m+++ b/filejenkins[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mthis is jenkings file[m
